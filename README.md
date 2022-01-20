@@ -1,7 +1,7 @@
 # hwhome-project
 [게시판]
 
-- Front End : HTML, CSS#, JavaScript, Bootstrap
+- Front End : HTML, CSS, JavaScript, Bootstrap
 - Back End : PHP, MariaDB, Apache server
 
 [프로젝트 상세 설명]
