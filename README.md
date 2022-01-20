@@ -1,7 +1,6 @@
 # hwhome-project
 [게시판]
 
-URL : http://15.165.229.90/hwhome/index.php
 - Front End : HTML, CSS#, JavaScript, Bootstrap
 - Back End : PHP, MariaDB, Apache server
 
