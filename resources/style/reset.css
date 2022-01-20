@@ -1,0 +1,67 @@
+/* main : reset */
+body, input, select, textarea, a, th, td, caption, h1, h2, h3, h4, h5, h6 {
+	font-family: "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+}
+
+div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset {
+	float: none;
+	display: block;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, fieldset, legend, figure, menu {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+table, th, td {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+ol, ul, li {
+	list-style: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+	font-weight: normal
+}
+
+input, textarea, select, button {
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	color: #333;
+	outline: 0;
+	vertical-align: middle
+}
+
+a:hover, a:active {
+	text-decoration: none
+}
+
+a, button, input[type='submit'], input[type='button'], input[type='reset'] {
+	border: 0;
+	background: transparent;
+	cursor: pointer
+}
+
+img {
+	border: 0;
+	vertical-align: top
+}
+
+.blind {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	margin: -1px;
+	padding: 0;
+	clip: rect(0, 0, 0, 0);
+}
+
+.w-90 {
+	width: 90%;
+}

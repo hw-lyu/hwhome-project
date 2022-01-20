@@ -1,0 +1,168 @@
+@charset "utf-8";
+@import "reset.css";
+
+/* common */
+.inner {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.common-header {
+	background-color: #fff;
+	box-shadow: -1px 3px 7px 1px #9c9b9b;
+	padding: 15px 0;
+}
+
+.common-header .inner {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.common-header .util-wrap .list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.common-header .util-wrap .list.login {
+	font-size: 14px;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.common-header .util-wrap .list li {
+	margin-left: 10px;
+}
+
+.common-header .util-wrap .list li:first-of-type {
+	margin-left: 0;
+}
+
+.common-footer {
+	background-color: #000;
+	color: #fff;
+	padding: 7px 0;
+}
+
+.common-title.hw {
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: -0.11em;
+}
+
+.common-title.hw a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.common-title.hw a:hover {
+	text-decoration: underline;
+}
+
+h2.common-title.line {
+	font-size: 20px;
+}
+
+h3.common-title.line {
+	font-size: 16px;
+}
+
+.common-title.line {
+	font-weight: bold;
+	display: inline-block;
+	border-bottom: 2px solid #000;
+}
+
+/* main */
+.main-container {
+	padding: 30px 0 15px;
+}
+
+.table caption {
+	text-indent: -9999px;
+	font-size: 0;
+	padding: 0;
+}
+
+.table-wrap .table tr.del {
+	background:rgba(235,74,74,0.3);
+	opacity: 0.7;
+}
+.table-wrap .table tr.del a {
+	text-decoration: none;
+	color:#000;
+}
+
+.table-wrap .table td {
+	font-size: 13px;
+}
+
+.table-wrap .table td a {
+	display: block;
+}
+
+.board-detail-wrap .content {
+	background-color: #eee;
+	font-size: 13px;
+	padding: 10px;
+}
+
+.board-detail-wrap .del {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px;
+	background-color: red;
+	margin-bottom: 10px;
+}
+
+/* join */
+.join-wrap .form-label .comment {
+	font-size: 12px;
+	color: #7a7a7a;
+	margin-left: 5px;
+	text-decoration: underline;
+}
+
+/* login */
+.error-wrap {
+	font-size: 18px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.error-wrap strong {
+	color: #585858;
+}
+
+.error-wrap .error-txt {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* comment */
+.comment-wrap .comment {
+	font-size: 14px;
+}
+
+/* btn */
+.btn-wrap .btn-reco {
+	width:64px;
+	height:64px;
+	color:#7c7c7c;
+	border-radius: 5px;
+	border:1px solid #ddd;
+	background-color:#eee;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	cursor: pointer;
+}
+.btn-wrap .btn-reco span {
+	 text-shadow: 0 1px 3px #959595;
+}
